@@ -45,6 +45,7 @@
             android:layout_marginRight="16dip"
             android:fontFamily="serif-monospace"
             android:text="@string/info"
+            android:textAlignment="gravity"
             android:textSize="20sp"
             android:textStyle="italic" />
 
@@ -75,9 +76,9 @@
             android:layout_below="@id/textView4"
             android:layout_alignLeft="@id/textView4"
             android:layout_alignParentStart="true"
-            android:layout_marginStart="19dp"
-            android:layout_marginLeft="-135dp"
-            android:layout_marginTop="26dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginLeft="-136dp"
+            android:layout_marginTop="8dp"
             android:layout_marginRight="50dip"
             android:text="@string/iqbalname"
             android:textAlignment="center" />
@@ -89,7 +90,7 @@
             android:layout_below="@id/textView4"
             android:layout_alignLeft="@id/textView4"
             android:layout_marginLeft="-91dp"
-            android:layout_marginTop="73dp"
+            android:layout_marginTop="55dp"
             android:layout_marginRight="50dip"
             android:text="@string/iqbalid" />
 
@@ -100,7 +101,7 @@
             android:layout_below="@id/textView4"
             android:layout_alignLeft="@id/textView4"
             android:layout_marginLeft="-83dp"
-            android:layout_marginTop="97dp"
+            android:layout_marginTop="79dp"
             android:layout_marginRight="50dip"
             android:text="@string/group" />
 
@@ -111,8 +112,8 @@
             android:layout_below="@id/textView4"
             android:layout_alignRight="@id/textView4"
             android:layout_alignParentEnd="true"
-            android:layout_marginTop="28dp"
-            android:layout_marginEnd="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="26dp"
             android:layout_marginRight="-129dp"
             android:layout_toLeftOf="@id/textView4"
             android:text="@string/syafiqname"
@@ -124,8 +125,8 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/textView4"
             android:layout_alignRight="@id/textView4"
-            android:layout_marginTop="72dp"
-            android:layout_marginRight="-67dp"
+            android:layout_marginTop="54dp"
+            android:layout_marginRight="-66dp"
             android:layout_toLeftOf="@id/textView4"
             android:text="@string/syafiqid" />
 
@@ -135,8 +136,8 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/textView4"
             android:layout_alignRight="@id/textView4"
-            android:layout_marginTop="98dp"
-            android:layout_marginRight="-61dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="-60dp"
             android:layout_toLeftOf="@id/textView4"
             android:text="@string/group" />
 

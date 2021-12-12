@@ -22,7 +22,7 @@ public class About extends AppCompatActivity {
         Url.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                gotoUrl ( "https://www.youtube.com/watch?v=Cbmnsx2VbJI") ;
+                gotoUrl ( "https://github.com/MuhammadIqbalUiTM/ict602") ;
             }
         });
     }
