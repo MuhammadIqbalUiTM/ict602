@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Payable Zakat</string>
+    <string name="about">About</string>
+    <string name="copyright">Copyright &#169; 2021 Iqbal and Syafiq</string>
+    <string name="weight">Weight of Gold (g)</string>
+    <string name="title"> Zakat Payable</string>
+    <string name="info">Zakat Payable is an application that helps user to calculate their zakat to pay based on the weight of the gold and current value of the gold.</string>
+   <string name="iqbalname">Muhammad Iqbal Bin Iskak</string>
+    <string name="iqbalid">2019563735</string>
+    <string name="group">RCS2405A</string>
+    <string name="syafiqname">Mohammed Syafiq Bin Affandy</string>
+    <string name="syafiqid">2019711739</string>
+    <string name="url">www.github.com</string>
+
+
+    <string-array name="type">
+        <item> Keep</item>
+        <item> Wear</item>
+    </string-array>
+
+</resources>

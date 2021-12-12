@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".About">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="170dp"
+            android:layout_height="125dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dip"
+            app:srcCompat="@drawable/pink_blue_z_alphabet_letter_logo_icon_design_with_swoosh_for_business_and_company_vector" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dip"
+            android:fontFamily="monospace"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textColor="#42B691"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="16dip"
+            android:layout_marginTop="32dip"
+            android:layout_marginRight="16dip"
+            android:fontFamily="serif-monospace"
+            android:text="@string/info"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dip"
+            android:text="@string/copyright" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView2"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="48dip"
+            android:text="Created By:"
+            android:textColor="#27AFA4"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView4"
+            android:layout_alignLeft="@id/textView4"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="19dp"
+            android:layout_marginLeft="-135dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginRight="50dip"
+            android:text="@string/iqbalname"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView4"
+            android:layout_alignLeft="@id/textView4"
+            android:layout_marginLeft="-91dp"
+            android:layout_marginTop="73dp"
+            android:layout_marginRight="50dip"
+            android:text="@string/iqbalid" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView4"
+            android:layout_alignLeft="@id/textView4"
+            android:layout_marginLeft="-83dp"
+            android:layout_marginTop="97dp"
+            android:layout_marginRight="50dip"
+            android:text="@string/group" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView4"
+            android:layout_alignRight="@id/textView4"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="-129dp"
+            android:layout_toLeftOf="@id/textView4"
+            android:text="@string/syafiqname"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView4"
+            android:layout_alignRight="@id/textView4"
+            android:layout_marginTop="72dp"
+            android:layout_marginRight="-67dp"
+            android:layout_toLeftOf="@id/textView4"
+            android:text="@string/syafiqid" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView4"
+            android:layout_alignRight="@id/textView4"
+            android:layout_marginTop="98dp"
+            android:layout_marginRight="-61dp"
+            android:layout_toLeftOf="@id/textView4"
+            android:text="@string/group" />
+
+        <TextView
+            android:id="@+id/url"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dip"
+            android:text="@string/url" />
+
+
+    </RelativeLayout>
+</ScrollView>
